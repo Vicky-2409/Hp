@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+}
+.section-1-header{
+    display: flex;
+    margin-left: 8%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 8%;
+    padding-top:15px;
+    margin-bottom: 10px;
+}
+.home{
+    display: flex;
+}
+.logo-option img{
+    width: 50px;
+    height: 50px;
+}
+.home-option{
+   margin-top: 15px;
+}
+.home-option ul{
+    display: inline;
+    margin-bottom: 25px;
+    
+}
+.home-option li{
+    display: inline;
+    color: rgb(130,130,130);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-right: 25px;
+
+
+}
+.search-box input{
+    width: 400px;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    border: none;
+}
+.search-icon img{
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+.searchbox-icon{
+    display: flex;
+    border: 1px black solid;
+    height: 40px;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+}
+.search-cart-button{
+    display: flex;
+
+}
+.search-cart-button img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px ;
+}
+.search-cart-button button{
+    width: 120px;
+    height: 30px;
+    font-size: larger;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
+.image-con img{
+    height: 600px;
+    width: 940px;
+
+}
+.section-2{
+    display: flex;
+    margin-bottom: 80px;
+}
+.heading-1 p{
+    color: black;
+    background-color: rgb(64,223,250);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    padding:20px;
+
+}
+.body-part-2{
+    background-color: rgb(160,239,253);
+    padding-bottom: 84px;
+}
+.one p{
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 30px 40px;
+}
+.list-pors ul{
+    margin-left: 30px;
+    line-height: 25px;
+    margin-bottom: 10px;
+
+}
+.list-pors li{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.section-2-buttons{
+    margin-left:40px ;
+}
+.section-2-buttons button{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+}
+.hey-there{
+    margin-left: 8%;
+}
+.hey-there p{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.what{
+    margin-left: 8%;
+    margin-bottom: 40px;
+}
+.what p{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.photo-caption{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+
+
+}
+.photo{
+    height: 380px;
+}
+.photo img{
+    height: 100%;
+    width: 390px;
+}
+.picture-collection{
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.caption{
+    background-color: rgb(33,34,55);
+    color: white;
+    height: 50px;
+    text-align: center;
+
+}
+.caption p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.section-3{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 50px;
+    
+
+}
+.sec-3-img{
+    width: 725px;
+    height: 425px;
+}
+.sec-3-img img{
+    width: 100%;
+    height: 100%;
+}
+.description{
+    margin-left: 30px;
+}
+.description h4{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-bottom: 15px;
+
+}
+.description p{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+
+}
+.description button{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+}
+
+.sub-sec-1{
+    display: flex;
+    background-color: black;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-sec-p{
+    margin-left: 8%;
+}
+.sub-sec-but{
+    margin-right: 8%;
+}
+.sub-sec-p p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+.sub-sec-but button{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    border: 0;
+    padding: 15px 30px;
+}
+.sub-sec-2{
+    background-color: black;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.country-flag{
+    display: flex;
+ 
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.country p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+
+}
+.flag-name{
+    display: flex;
+}
+.flag img{
+    width: 20px;
+    margin-right: 10px;
+}
+.name p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-5{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 15%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.about-list ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none ;
+    padding-left: 0;
+}
+.about-list li{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+}
+.about-list h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    color: white;
+}
+.social-images img{
+    width: 20px;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.about-image{
+    display: flex;
+    flex-direction: column;
+    
+}
+.last-section{
+    background-color: black;
+    padding: 10px 8% 25px 8%;
+}
+
+.last-section p{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+    padding-top: 20px;
+    
+}
